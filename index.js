@@ -2,13 +2,12 @@
 
 const string = "You have received this message because you have been chosen to open an important vault. Here is the secret combination:";
 
-alert(string)
-
 //assigning three variables to three uniques arithmetic operator expressions//
 
 let comboOne = 5 * 2;
 let comboTwo = 25 + 15;
 let comboThree = 40 - 1;
+
 
 //console.log out each variable to make sure my arithmetic coincides with the combination lock.//
 
@@ -18,4 +17,8 @@ console.log(comboThree)
 
 // created a concatenated alert to notify the user //
 
-alert(comboOne + " " + comboTwo + " " + comboThree);
+const combo = " " + comboOne + "-" + comboTwo + "-" + comboThree
+
+console.log(combo)
+
+alert(string + combo);
